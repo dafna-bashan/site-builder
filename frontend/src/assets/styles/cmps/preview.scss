@@ -1,0 +1,22 @@
+.preview {
+    border: .3px solid rgb(197, 197, 197);
+    border-radius: 8px;
+    padding: 10px;
+    width: 80vw;
+    text-align: center;
+    .img-container{
+        height: 225px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 190px;
+    }
+}
+
+@media (min-width: 460px) {
+    .preview {
+        width: 208px;
+    }
+}

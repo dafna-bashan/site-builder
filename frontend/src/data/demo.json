@@ -1,0 +1,160 @@
+{
+	"_id": "5e28393890dd7201a06d4e44",
+	"name": "My Site",
+	"imgUrl": "",
+	"createdBy": {
+		"_id": "5e26e0b718a0891d4c995527",
+		"username": "dafna"
+	},
+	"cmps": [
+		{
+            "id" : "header01",
+            "sectionType" : "header-section",
+            "url" : "",
+            "type" : "section",
+            "info" : {
+                "style" : {
+                    "backgroundImage" : "",
+                    "backgroundColor" : "#101010",
+                    "minWidth" : "16px",
+                    "minHeight" : "16px",
+                    "paddingInline" : "30px",
+                    "paddingBlock" : "8px",
+                    "flexDirection" : "row",
+                    "alignItems" : "center",
+                    "justifyContent" : "space-between",
+                    "alignContent" : "unset"
+                }
+            },
+            "cmps" : [ 
+                {
+                    "id" : "wc011",
+                    "type" : "text",
+                    "info" : {
+                        "txt" : "Logo",
+                        "style" : {
+                            "fontSize" : "24px",
+                            "textAlign" : "center",
+                            "textDecoration" : "",
+                            "fontWeight" : "",
+                            "fontStyle" : "",
+                            "color" : "#ffffff",
+                            "backgroundColor" : "#101010",
+                            "minWidth" : "16px",
+                            "minHeight" : "16px",
+                            "fontFamily" : "montserrat_alternates",
+                            "textShadow" : "",
+                            "paddingInline" : "10px",
+                            "paddingBlock" : "10px",
+                            "letterSpacing" : "0px",
+                            "borderWidth" : "0px",
+                            "borderColor" : "0px",
+                            "borderRadius" : "0px"
+                        }
+                    }
+                }, 
+                {
+                    "id" : "wc012",
+                    "type" : "nav",
+                    "info" : {
+                        "style" : {
+                            "flexDirection" : "row",
+                            "alignItems" : "center",
+                            "justifyContent" : "flex-end",
+                            "alignContent" : "center"
+                        }
+                    },
+                    "cmps" : [ 
+                        {
+                            "id" : "wc0121",
+                            "type" : "btn",
+                            "info" : {
+                                "txt" : "Home",
+                                "action" : {
+                                    "link" : "url"
+                                },
+                                "style" : {
+                                    "fontSize" : "18px",
+                                    "textAlign" : "center",
+                                    "textDecoration" : "",
+                                    "fontWeight" : "",
+                                    "fontStyle" : "",
+                                    "color" : "#ffffff",
+                                    "backgroundColor" : "inherit",
+                                    "minWidth" : "16px",
+                                    "minHeight" : "16px",
+                                    "fontFamily" : "montserrat_alternates",
+                                    "textShadow" : "",
+                                    "paddingInline" : "10px",
+                                    "paddingBlock" : "10px",
+                                    "letterSpacing" : "0px",
+                                    "borderWidth" : "0px",
+                                    "borderColor" : "0px",
+                                    "borderRadius" : "15px"
+                                }
+                            }
+                        }, 
+                        {
+                            "id" : "wc0123",
+                            "type" : "btn",
+                            "info" : {
+                                "txt" : "News",
+                                "action" : {
+                                    "link" : "url"
+                                },
+                                "style" : {
+                                    "fontSize" : "18px",
+                                    "textAlign" : "center",
+                                    "textDecoration" : "",
+                                    "fontWeight" : "",
+                                    "fontStyle" : "",
+                                    "color" : "#ffffff",
+                                    "backgroundColor" : "inherit",
+                                    "minWidth" : "16px",
+                                    "minHeight" : "16px",
+                                    "fontFamily" : "montserrat_alternates",
+                                    "textShadow" : "",
+                                    "paddingInline" : "10px",
+                                    "paddingBlock" : "10px",
+                                    "letterSpacing" : "0px",
+                                    "borderWidth" : "0px",
+                                    "borderColor" : "0px",
+                                    "borderRadius" : "15px"
+                                }
+                            }
+                        }, 
+                        {
+                            "id" : "wc0122",
+                            "type" : "btn",
+                            "info" : {
+                                "txt" : "About",
+                                "action" : {
+                                    "link" : "url"
+                                },
+                                "style" : {
+                                    "fontSize" : "18px",
+                                    "textAlign" : "center",
+                                    "textDecoration" : "",
+                                    "fontWeight" : "",
+                                    "fontFamily" : "montserrat_alternates",
+                                    "fontStyle" : "",
+                                    "color" : "#ffffff",
+                                    "backgroundColor" : "inherit",
+                                    "minWidth" : "16px",
+                                    "minHeight" : "16px",
+                                    "textShadow" : "",
+                                    "paddingInline" : "10px",
+                                    "paddingBlock" : "10px",
+                                    "letterSpacing" : "0px",
+                                    "borderWidth" : "0px",
+                                    "borderColor" : "0px",
+                                    "borderRadius" : "15px"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        } 
+	]
+}
