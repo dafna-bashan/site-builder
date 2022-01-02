@@ -6,12 +6,11 @@
 		"_id": "5e26e0b718a0891d4c995527",
 		"username": "dafna"
 	},
-	"cmps": [
+	"sections": [
 		{
             "id" : "header01",
-            "sectionType" : "header-section",
             "url" : "",
-            "type" : "section",
+            "category": "header",
             "info" : {
                 "style" : {
                     "backgroundImage" : "",
@@ -29,7 +28,6 @@
             "cmps" : [ 
                 {
                     "id" : "wc011",
-                    "type" : "text",
                     "info" : {
                         "txt" : "Logo",
                         "style" : {
@@ -55,7 +53,7 @@
                 }, 
                 {
                     "id" : "wc012",
-                    "type" : "nav",
+                    "category" : "nav",
                     "info" : {
                         "style" : {
                             "flexDirection" : "row",
@@ -67,7 +65,6 @@
                     "cmps" : [ 
                         {
                             "id" : "wc0121",
-                            "type" : "btn",
                             "info" : {
                                 "txt" : "Home",
                                 "action" : {
@@ -96,7 +93,6 @@
                         }, 
                         {
                             "id" : "wc0123",
-                            "type" : "btn",
                             "info" : {
                                 "txt" : "News",
                                 "action" : {
@@ -125,7 +121,6 @@
                         }, 
                         {
                             "id" : "wc0122",
-                            "type" : "btn",
                             "info" : {
                                 "txt" : "About",
                                 "action" : {

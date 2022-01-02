@@ -1,3 +1,4 @@
+import { Section } from "./section";
 import { User } from "./user";
 
 export interface Wap {
@@ -5,5 +6,5 @@ export interface Wap {
 	name: string,
 	imgUrl?: string,
 	createdBy: User,
-	cmps: []
+	sections: Section[]
 }
