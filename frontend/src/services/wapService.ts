@@ -1,7 +1,8 @@
-import { Item } from '../store/item';
+// import { Item } from '../store/item';
+import { Wap } from '../types/wap';
 import { storageService } from './asyncStorageService'
 
-export const itemService = {
+export const wapService = {
   add,
   query,
   remove,
@@ -21,11 +22,11 @@ function remove(itemId: string) {
   return storageService.remove('item', itemId)
 
 }
-async function add(item: Item) {
+async function add(item: Wap) {
   const addedItem = storageService.post('item', item)
   return addedItem
 }
 
-async function update(item: Item) {
+async function update(item: Wap) {
   return storageService.put('item', item);
 }
