@@ -32,7 +32,7 @@ const initialState: WapState = {
 //   error: ''
 // };
 
-export function itemReducer(state: WapState = initialState, action: WapAction): WapState {
+export function wapReducer(state: WapState = initialState, action: WapAction): WapState {
   switch (action.type) {
     // case SET_LOADING: {
     //   const { isLoading } = action;

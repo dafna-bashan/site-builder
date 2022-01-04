@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import {itemReducer} from "./itemReducer"
+import {wapReducer} from "./wapReducer"
 
 
 export const rootReducer = combineReducers({
-    itemModule: itemReducer
+    wapModule: wapReducer
 })
 
 

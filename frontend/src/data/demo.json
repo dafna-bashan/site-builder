@@ -1,4 +1,4 @@
-{
+[{
 	"_id": "5e28393890dd7201a06d4e44",
 	"name": "My Site",
 	"imgUrl": "",
@@ -6,7 +6,7 @@
 		"_id": "5e26e0b718a0891d4c995527",
 		"username": "dafna"
 	},
-	"sections": [
+	"cmps": [
 		{
             "id" : "header01",
             "url" : "",
@@ -152,4 +152,4 @@
             ]
         } 
 	]
-}
+}]

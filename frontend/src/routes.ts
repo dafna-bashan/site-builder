@@ -1,20 +1,21 @@
 import { Home } from './pages/Home';
 // import { MyApp } from './pages/MyApp';
 import { WapApp } from './pages/WapApp';
+import { WapEditor } from './pages/WapEditor';
 
 
 export const routes = [
 
-  // {
-  //   path: '/app/edit/:id',
-  //   component: MyApp
-  // },
+  {
+    path: '/editor/:id?',
+    component: WapEditor
+  },
   // {
   //   path: '/app/add',
   //   component: MyApp
   // },
   {
-    path: '/app',
+    path: '/templates',
     component: WapApp
   },
   {

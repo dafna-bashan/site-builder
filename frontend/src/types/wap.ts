@@ -1,4 +1,5 @@
-import { Section } from "./section";
+import { Cmp } from "./cmp";
+// import { Section } from "./section";
 import { User } from "./user";
 
 export interface Wap {
@@ -6,5 +7,5 @@ export interface Wap {
 	name: string,
 	imgUrl?: string,
 	createdBy: User,
-	sections: Section[]
+	cmps: Cmp[]
 }

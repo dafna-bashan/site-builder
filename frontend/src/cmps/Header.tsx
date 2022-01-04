@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
     const [open, setOpen] = useState(false)
     useEffect(() => {
         // window.addEventListener('resize', toggleLinks);
-        console.log(open);
+        // console.log(open);
     }, [open])
 
     // const toggleLinks = (ev) => {
@@ -25,9 +25,10 @@ export const Header: React.FC = () => {
             <nav className="main-nav flex space-between">
                 <NavLink exact to="/"><span>Home</span></NavLink>
                 <nav className={open ? 'links open flex' : 'links flex'}>
-                    <NavLink to="/app">App</NavLink>
-                    <NavLink to="/login">Login</NavLink>
-                    <NavLink to="/signup">Signup</NavLink>
+                    <NavLink to="/templates">Templates</NavLink>
+                    <NavLink to="/editor">Editor</NavLink>
+                    {/* <NavLink to="/login">Login</NavLink> */}
+                    {/* <NavLink to="/signup">Signup</NavLink> */}
                 </nav>
                 <MenuIcon className="hamburger" onClick={onOpenNavbar}></MenuIcon>
             </nav>
