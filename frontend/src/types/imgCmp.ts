@@ -1,5 +1,6 @@
 export interface ImgCmp {
     id: string,
+    type: 'imgCmp',
     info: {
         src: string,
         style: {

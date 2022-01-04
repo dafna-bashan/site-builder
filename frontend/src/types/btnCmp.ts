@@ -1,5 +1,6 @@
 export interface BtnCmp {
     id: string,
+    type: 'btnCmp',
     info: {
         txt: string,
         action?: {

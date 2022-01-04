@@ -2,6 +2,7 @@ import { Cmp } from "./cmp";
 
 export interface Section {
     id : string,
+    type: 'section',
     url? : string,
     category: string,
     info : {

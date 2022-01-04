@@ -9,6 +9,8 @@ interface Props {
 }
 
 export const SectionList: React.FC<Props> = ({ props }) => {
+    console.log('section list');
+    
     return (
         <div className='section-list'>
             {props?.cmps.map(cmp => <DynamicCmp key={cmp.id} cmp={cmp} />)}

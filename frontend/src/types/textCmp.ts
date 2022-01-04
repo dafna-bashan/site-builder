@@ -1,5 +1,6 @@
 export interface TextCmp {
     id: string,
+    type: 'txtCmp',
     info: {
         txt: string,
         style: {
