@@ -14,7 +14,7 @@ export const WapSection: React.FC<Props> = ({ section }) => {
     return (
         <div className='wap-section' style={styles}>
             {/* {JSON.stringify(section)} */}
-            {section.cmps?.length && section.cmps.map(cmp => <DynamicCmp cmp={cmp} />)}
+            {section.cmps?.length && section.cmps.map(cmp => <DynamicCmp key={cmp.id} cmp={cmp} />)}
         </div>
     )
 }

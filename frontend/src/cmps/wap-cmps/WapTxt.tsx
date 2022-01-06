@@ -11,6 +11,9 @@ export const WapTxt: React.FC<Props> = ({ cmp }) => {
     const styles = cmp.info.style as React.CSSProperties
 
     return (
+        // <div className='wap-txt' contentEditable={true} style={styles}>
+        //     {cmp.info.txt}
+        // </div>
         <div className='wap-txt' style={styles}>
             {cmp.info.txt}
         </div>
