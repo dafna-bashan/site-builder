@@ -7,12 +7,12 @@ interface Props {
 }
 
 export const WapSection: React.FC<Props> = ({ section }) => {
+    console.log('section');
 
     const styles = section.info.style as React.CSSProperties
 
     return (
         <div className='wap-section' style={styles}>
-            im a section
             {/* {JSON.stringify(section)} */}
             {section.cmps?.length && section.cmps.map(cmp => <DynamicCmp cmp={cmp} />)}
         </div>

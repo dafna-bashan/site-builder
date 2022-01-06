@@ -29,10 +29,12 @@ export const WapEditor: React.FC<RouteComponentProps<RouteParams>> = (props) => 
 
     useEffect(() => {
         setWapToSave(wap)
+        console.log(wap);
+
     }, [wap])
 
     return (
-        <div>
+        <div className='wap-editor'>
             {/* <div>{JSON.stringify(waps)}</div> */}
             {!wap && <div>create your own web app</div>}
             {wap && <SectionList props={wap} />}

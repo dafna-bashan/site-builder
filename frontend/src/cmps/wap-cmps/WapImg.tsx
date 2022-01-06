@@ -6,6 +6,7 @@ interface Props {
 }
 
 export const WapImg: React.FC<Props> = ({ cmp }) => {
+    console.log('img');
 
     const styles = cmp.info.style as React.CSSProperties
 

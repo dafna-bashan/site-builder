@@ -14,8 +14,9 @@
             "type": "section",
             "info" : {
                 "style" : {
+                    "display":"flex",
                     "backgroundImage" : "",
-                    "backgroundColor" : "#101010",
+                    "backgroundColor" : "#4e4e4e",
                     "minWidth" : "16px",
                     "minHeight" : "16px",
                     "paddingInline" : "30px",
@@ -23,15 +24,16 @@
                     "flexDirection" : "row",
                     "alignItems" : "center",
                     "justifyContent" : "space-between",
-                    "alignContent" : "unset"
+                    "alignContent" : "unset",
+                    "fontFamily" : "roboto-regular"
                 }
             },
             "cmps" : [ 
                 {
                     "id" : "wc011",
+                    "type": "txtCmp",
                     "info" : {
-                        "txt" : "Logo",
-                        "type": "txtCmp",
+                        "txt" : "MySite",
                         "style" : {
                             "fontSize" : "24px",
                             "textAlign" : "center",
@@ -39,10 +41,10 @@
                             "fontWeight" : "",
                             "fontStyle" : "",
                             "color" : "#ffffff",
-                            "backgroundColor" : "#101010",
+                            "backgroundColor" : "",
                             "minWidth" : "16px",
                             "minHeight" : "16px",
-                            "fontFamily" : "montserrat_alternates",
+                            "fontFamily" : "",
                             "textShadow" : "",
                             "paddingInline" : "10px",
                             "paddingBlock" : "10px",
@@ -84,7 +86,7 @@
                                     "backgroundColor" : "inherit",
                                     "minWidth" : "16px",
                                     "minHeight" : "16px",
-                                    "fontFamily" : "montserrat_alternates",
+                                    "fontFamily" : "",
                                     "textShadow" : "",
                                     "paddingInline" : "10px",
                                     "paddingBlock" : "10px",
@@ -113,7 +115,7 @@
                                     "backgroundColor" : "inherit",
                                     "minWidth" : "16px",
                                     "minHeight" : "16px",
-                                    "fontFamily" : "montserrat_alternates",
+                                    "fontFamily" : "",
                                     "textShadow" : "",
                                     "paddingInline" : "10px",
                                     "paddingBlock" : "10px",
@@ -137,7 +139,7 @@
                                     "textAlign" : "center",
                                     "textDecoration" : "",
                                     "fontWeight" : "",
-                                    "fontFamily" : "montserrat_alternates",
+                                    "fontFamily" : "",
                                     "fontStyle" : "",
                                     "color" : "#ffffff",
                                     "backgroundColor" : "inherit",

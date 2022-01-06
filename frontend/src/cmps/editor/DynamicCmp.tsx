@@ -12,15 +12,18 @@ interface Props {
 export const DynamicCmp: React.FC<Props> = ({ cmp }) => {
 
     const getCmp = () => {
+        console.log('get cmp');
+        
         switch (cmp.type) {
             case 'section': return <WapSection section={cmp} />
             case 'txtCmp': return <WapTxt cmp={cmp} />
             case 'imgCmp': return <WapImg cmp={cmp} />
             case 'btnCmp': return <WapBtn cmp={cmp} />
+            default: return 'no such cmp'
         }
     }
-    console.log('dynamic cmp');
     
+    // console.log('dynamic cmp');
     return (
         <>{getCmp()}</>
     )

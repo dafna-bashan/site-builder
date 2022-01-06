@@ -6,6 +6,7 @@ interface Props {
 }
 
 export const WapTxt: React.FC<Props> = ({ cmp }) => {
+    console.log('txt');
 
     const styles = cmp.info.style as React.CSSProperties
 

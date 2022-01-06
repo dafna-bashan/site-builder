@@ -7,6 +7,7 @@ interface Props {
 }
 
 export const WapBtn: React.FC<Props> = ({ cmp }) => {
+    console.log('btn');
 
     const styles = cmp.info.style as React.CSSProperties
     // const link = cmp.info.action?.link as LocationDescriptor<unknown>
